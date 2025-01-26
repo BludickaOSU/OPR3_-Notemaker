@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: to-do-list
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo
+    username: postgres
+    password: 12345678Aa+
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    format:
+      date-time: iso
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+server:
+  servlet:
+    context-path: "/api"
+
+security:
+  jwt:
+    secret-key: 484fe8f4e8fe81gh818ghr8g4er8g48r4gr8ge84ge84ge8r4g8eg18er1g8erg8er4g8e4rg8t1h8t18hrh48t4h8t4h8
+    expiration-time: 86400000
