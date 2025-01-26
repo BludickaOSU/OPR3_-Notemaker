@@ -1,0 +1,10 @@
+{
+  "home": "/notes",
+  "user": "/users",
+  "impoortancy": "/importancy",
+  "login": "/login",
+  "register": "/register",
+  "logout": "/logout",
+  "topic": "/topics",
+  "note": "/notes"
+}
